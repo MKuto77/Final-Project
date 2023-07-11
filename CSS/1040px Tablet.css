@@ -1,0 +1,44 @@
+@media(max-width: 1040px) {
+    /* index page adjusted header position */
+    .Header_ul {
+        justify-content: center;
+    }
+
+    .header_li {
+        font-size: 15px;
+    }
+
+    .header_main {
+        font-size: 30px;
+    }
+
+    .header_main:hover {
+        scale: 1.4;
+    }
+
+    .last_txt {
+        font-size: 15px;
+    }
+
+    /* section 4 */
+    /* Index page finishes here */
+    /* !!!!! artwork page */
+    /* search button */
+    .artwork_button1{
+        width: 125px;
+    }
+
+    /* Contact page */
+    /* section 2 search form */
+    .form_header{
+        font-size: 32px;
+    }
+    .form_write_tab{
+        width: 40%;
+    }
+    .contact_div{
+        width: 50%;
+    }
+    /* section 2 search form */
+}
+

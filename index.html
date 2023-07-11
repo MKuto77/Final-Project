@@ -9,24 +9,32 @@
     <link rel="stylesheet" href="CSS/fonts.css">
     <script src="https://kit.fontawesome.com/68789269dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/1440px big tablet.css">
+    <link rel="stylesheet" href="CSS/1040px Tablet.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
 </head>
 
 <body>
     <div class="Container">
         <!-- header -->
         <header>
+            <i class="fa-solid fa-bars menu"></i>
             <!-- navigation: home, artworks, contact -->
-            <nav>
+            <nav class="navigatione">
                 <ul class="Header_ul">
                     <li><a class="header_li active" href="index.html">Home</a></li>
                     <li><a class="header_li" href="artwork.html">Artworks</a></li>
-                    <li><a class="header_li" href="">Contact</a></li>
+                    <li><a class="header_li" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <!-- navigation -->
             <!-- Main header -->
             <a href="index.html">
-                <h2 class="header_main">Earthly<span class="h2_span">Artistyle</span></h2>
+                <div class="header_main_title">
+                    <h2 class="header_mains">Earthly</h2>
+                    <p class="h2_span">Artisry</p>
+                    
+                </div>
             </a>
             <!-- Main header -->
             <!-- Sign in and cart photo -->
@@ -53,25 +61,25 @@
         <!-- section 2 starts here -->
         <section class="section2">
             <figure class="sec2_figure">
-                <img src="Photos/section2_1.jpg" alt="">
+                <img class="index_sec2_img" src="Photos/section2_1.jpg" alt="">
                 <figcaption class="sec2_caption">
                     Pottery Classes
                 </figcaption>
             </figure>
             <figure class="sec2_figure">
-                <img src="Photos/section2_2.jpg" alt="">
+                <img class="index_sec2_img" src="Photos/section2_2.jpg" alt="">
                 <figcaption class="sec2_caption">
                     Design Process
                 </figcaption>
             </figure>
             <figure class="sec2_figure">
-                <img src="Photos/section2_3.jpg" alt="">
+                <img class="index_sec2_img" src="Photos/section2_3.jpg" alt="">
                 <figcaption class="sec2_caption">
                     Gift Pottery
                 </figcaption>
             </figure>
             <figure class="sec2_figure">
-                <img src="Photos/section2_4.jpg" alt="">
+                <img class="index_sec2_img" src="Photos/section2_4.jpg" alt="">
                 <figcaption class="sec2_caption">
                     Ceramic Painting
                 </figcaption>
@@ -100,7 +108,7 @@
             </h2>
             <div class="section4_main_div">
                 <!-- left side button -->
-                <button class="sec4_angle"><i class="fa-solid fa-angle-left arrow_button"></i></button>
+                <button class="sec4_angle"><i class="fa-solid fa-angle-left"></i></button>
                 <!-- left side button -->
                 
                     
@@ -123,7 +131,7 @@
                         <p class="sec4_txt">$48.57</p>
                     </div>
                 </div>
-                <div class="sec4_pic filtered">
+                <div class="sec4_pic filtered display_none">
                     <img class="sec4_img" src="Photos/sec4_4.jpg" alt="">
                     <div class="sec4_mini_div">
                         <p class="sec4_txt">$48.57</p>
@@ -131,7 +139,10 @@
                 </div>
                 <!-- mid section width imgs -->
                 <!-- right side button -->
-                <button class="sec4_angle"><i class="fa-solid fa-angle-right arrow_button"></i></button>
+                <button class="sec4_angle"><i class="fa-solid fa-angle-right"></i></button>
+                <button class="sec4_last_button">
+                    View More
+                </button>
             </div>
         </section>
         <!-- section 4 ends here -->

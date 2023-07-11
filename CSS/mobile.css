@@ -1,0 +1,215 @@
+@media(max-width: 840px){
+    /* Index header */
+    header{
+        padding-top: 9px;
+        padding-bottom: 9px;
+    }
+    .navigatione{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .header_main_title{
+        flex-direction: column;
+    }
+    /* index header */
+    /* indes section 1 */
+    .section1{
+        height: 400px;
+        background-size: cover;
+    }
+    .section1_txt{
+        width: 95%;
+    }
+    .section1_header{
+        margin-top: 100px;
+    }
+    .section1_button{
+        margin-top: 22px;
+    }
+    .section1_header{
+        font-size: 32px;
+    }
+    /* index section1 ends here */
+    /* index section 2 */
+    .section2{
+        padding-top: 64px;
+        padding-bottom: 64px;
+        row-gap: 40px;
+        width: 90%;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .index_sec2_img{
+        width: 85%;
+    }
+    /* section 3 index*/
+    .section3{
+        padding: 20px 32px 20px 32px;
+    }
+    .sec3_3, .sec3_5{
+        display: none;
+    }
+
+
+    .sec3_Main_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        row-gap: 20px;
+    }
+    .sec3_pic{
+        width: 80%;
+        height: 280px;
+        background-size: cover
+    }
+    /* section 3 index */
+    /* section 4 index */
+    .section4{
+        margin-top: 64px;
+        row-gap: 32px;
+        width: 100%;
+    }
+    .section4_main_div{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .display_none{
+        display: none;
+    }
+    .sec4_angle{
+        display: none;
+    }
+    .sec4_pic{
+        width: 100%;
+    }
+    .sec4_last_button{
+        display: block;
+        margin-top: 12px;
+    }
+    /* section 4 index */
+    /* section 5 index */
+    .section5{
+        margin-top: 48px;
+        height: 200px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+        row-gap: 24px;
+    }
+    .form_div1{
+        width: 60%;
+    }
+    /* section5 index */
+    /* section 6 index */
+    .section6{
+        margin-top: 64px;
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+        
+    }
+    .sec6_main_div{
+        flex-direction: column;
+        row-gap: 20px;
+    }
+    .sec6_mini_div{
+        width: 100%;
+    }
+    .sec6_title{
+        text-align: center;
+        font-size: 32px;
+    }
+    .mini_div_txt{
+        font-size: 16px;
+    }
+    .sec6_last_title{
+        text-align: center;
+    }
+    .questenary{
+        row-gap: 13px;
+        margin-top: 28px;
+    }
+    /* index section 6 ends here */
+    /* !!!!!!!!!!!!footer for all!!!!!!!!!! */
+    .index_footer{
+        margin-top: 64px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .help_icons{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 42px;
+        margin-bottom: 41px;
+    }
+    .footer_li{
+        text-align: center;
+    }
+    .footer_title{
+        margin-bottom: 64px;
+    }
+    .contact_info{
+        align-items: center;
+        margin-bottom: 42px;
+    }
+    /* index ends here */
+    /* !!!!!!!!! ARTWORKKK !!!!!!!!!!!!!!!!! */
+    /* ARTWORK SECTION 1 */
+    .artwork_section1{
+        height: 320px;
+        background-size: cover;
+        background-position-x:center;
+        background-position-Y:center;
+  
+    }
+    .section1_button{
+        width: 100%;
+        padding: 15px 41px;
+    }
+    /* ARTWORK Section1 ends here */
+    /* ARTWORK SECTION 2 */
+    .artwork_section2{
+        width: 95%;
+        margin-top: 65px;
+    }
+    .txt_searchbutton{
+        flex-direction: column;
+        row-gap: 25px;
+        align-items:flex-start;
+        margin-inline: 5%;
+    }
+    .form_div2{
+        width: 100%;
+    }
+    .artwork_sec2_title{
+        font-size: 32px;
+    }
+    .sort_txt{
+        font-size: 24px;
+    }
+    .all_sort{
+        margin-left: 5%;
+        margin-right: 15%;
+    }
+    /* ARTOWORK SECTION 2 ENDS HERE */
+    /*ARTOWRK SECTION 3 Starts here  */
+    .wrapper_div{
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .wrapper_mini_div{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 14%;
+        justify-content: center;
+    }
+    .tabs{
+        width: 32px;
+        height: 32px;
+    }
+    .numerical{
+        width: 87.5%;
+    }
+}

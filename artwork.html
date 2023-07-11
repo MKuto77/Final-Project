@@ -9,24 +9,33 @@
     <link rel="stylesheet" href="CSS/fonts.css">
     <script src="https://kit.fontawesome.com/68789269dc.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/1440px big tablet.css">
+    <link rel="stylesheet" href="CSS/1040px Tablet.css">
+    <link rel="stylesheet" href="CSS/mobile.css">
+    
 </head>
 
 <body>
     <div class="Container">
         <!-- header -->
         <header>
+            <i class="fa-solid fa-bars menu"></i>
             <!-- navigation: home, artworks, contact -->
-            <nav>
+            <nav class="navigatione">
                 <ul class="Header_ul">
-                    <li><a class="header_li active" href="index.html">Home</a></li>
-                    <li><a class="header_li" href="artwork.html">Artworks</a></li>
-                    <li><a class="header_li" href="">Contact</a></li>
+                    <li><a class="header_li" href="index.html">Home</a></li>
+                    <li><a class="header_li active" href="artwork.html">Artworks</a></li>
+                    <li><a class="header_li" href="contact.html">Contact</a></li>
                 </ul>
             </nav>
             <!-- navigation -->
             <!-- Main header -->
             <a href="index.html">
-                <h2 class="header_main">Earthly<span class="h2_span">Artistyle</span></h2>
+                <div class="header_main_title">
+                    <h2 class="header_mains">Earthly</h2>
+                    <p class="h2_span">Artisry</p>
+                    
+                </div>
             </a>
             <!-- Main header -->
             <!-- Sign in and cart photo -->
@@ -81,7 +90,7 @@
                         <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
                     </div>
                 </div>
-                <div class="wrapper_mini_div">
+                <div class="wrapper_mini_div display_none">
                     <img class="wrapper_img" src="Photos/wrapper2.jpg" alt="">
                     <p class="name_product">Product name</p>
                     <div class="price">
@@ -105,7 +114,7 @@
                         <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
                     </div>
                 </div>
-                <div class="wrapper_mini_div">
+                <div class="wrapper_mini_div display_none">
                     <img class="wrapper_img" src="Photos/wrapper 5.jpg" alt="">
                     <p class="name_product">Product name</p>
                     <div class="price">
@@ -113,7 +122,7 @@
                         <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
                     </div>
                 </div>
-                <div class="wrapper_mini_div">
+                <div class="wrapper_mini_div display_none">
                     <img class="wrapper_img" src="Photos/wrapper 6.jpg" alt="">
                     <p class="name_product">Product name</p>
                     <div class="price">
@@ -121,7 +130,7 @@
                         <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
                     </div>
                 </div>
-                <div class="wrapper_mini_div">
+                <div class="wrapper_mini_div display_none">
                     <img class="wrapper_img" src="Photos/wrapper7.jpg" alt="">
                     <p class="name_product">Product name</p>
                     <div class="price">
@@ -129,7 +138,7 @@
                         <a href=""><i class="fa-solid fa-cart-shopping cart"></i></a>
                     </div>
                 </div>
-                <div class="wrapper_mini_div">
+                <div class="wrapper_mini_div display_none">
                     <img class="wrapper_img" src="Photos/wrapper8.jpg" alt="">
                     <p class="name_product">Product name</p>
                     <div class="price">
@@ -138,7 +147,59 @@
                     </div>
                 </div>
             </div>
+            <div class="numerical">
+                <button class="tabs"><i class="fa-solid fa-arrow-left tabber"></i></button>
+                <a href=""><button class="tabs">1</button></a>
+                <a href=""><button class="tabs">2</button></a>
+                <a href=""><button class="tabs">3</button></a>
+                <a href=""><button class="tabs">4</button></a>
+                <a href=""><button class="tabs">...</button></a>
+                <a href=""><button class="tabs">17</button></a>
+                <button class="tabs"><i class="fa-solid fa-arrow-right tabber"></i></button>
+            </div>
         </section>
+        <footer class="index_footer">
+            <div class="help_icons">
+                <ul class="footer_ul">
+                    <a href="">
+                        <li class="footer_li main">Help</li>
+                    </a>
+                    <a href="">
+                        <li class="footer_li mid">Help Center</li>
+                    </a>
+                    <a href="">
+                        <li class="footer_li">Privacy Settings</li>
+                    </a>
+                </ul>
+                <div class="icons">
+                    <a href="https://www.youtube.com/" target="_blank"><i
+                            class="fa-brands fa-youtube soc_media"></i></a>
+                    <a href="https://www.instagram.com/" target="_blank"><i
+                            class="fa-brands fa-instagram soc_media"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i
+                            class="fa-brands fa-facebook soc_media"></i></a>
+                </div>
+            </div>
+            <a href="index.html">
+                <h2 class="footer_title">
+                    Earthly<span class="footer_span">Artistry</span>
+                </h2>
+            </a>
+            <div class="contact_info">
+                <div class="telephone icon_hover">
+                    <i class="fa-solid fa-phone"></i>
+                    <a class="telephone_a" href="tel:+123 45 67  89">+123 45 67 89</a>
+                </div>
+                <div class="mailru icon_hover">
+                    <i class="fa-solid fa-envelope"></i>
+                    <a class="mail_a" href="mailto:example@mail.com">example@mail.com</a>
+                </div>
+                <div class="location icon_hover">
+                    <i class="fa-sharp fa-solid fa-location-dot"></i>
+                    <p class="footer_location">Rustaveli avenue, 30</p>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 

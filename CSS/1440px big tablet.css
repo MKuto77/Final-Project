@@ -1,0 +1,27 @@
+@media(max-width: 1440px) {
+    /*index section 4 adjusted price tag */
+    .sec4_mini_div {
+        top: 70%;
+        left: 5%;
+        padding: 10px 12px;
+        width: 35%;
+        height: 20%;
+    }
+    .sec4_txt{
+        font-size: 90%;
+    }
+    /* index section 4 adjusted price tag */
+    /* index section 5 subscribe button adjusted */
+    .sec5_button{
+        width: 100px;
+    }
+    /* Contact page */
+    /* section 2 search form main div */
+    .contact_div{
+        width: 42.5%;
+    }
+    /* map size */
+    .mapper{
+        width: 65%;
+    }
+}
