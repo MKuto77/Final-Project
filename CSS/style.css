@@ -34,7 +34,7 @@ header {
 .header_li {
     color: #FFF;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -75,7 +75,7 @@ header {
 .h2_span {
     color: #FFF;
     font-size: 32px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -133,7 +133,7 @@ header {
 .last_txt {
     color: #FFF;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -177,7 +177,7 @@ header {
 .section1_header {
     color: #FFF;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -188,7 +188,7 @@ header {
     color: #FFF;
     text-align: center;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -202,11 +202,15 @@ header {
     border-radius: 10px;
     border: 2px solid #D5906E;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-top: 72px;
+}
+.section1_button:hover{
+    background-color: #D5906E;
+    transition-duration: 0.5s;
 }
 
 
@@ -237,7 +241,7 @@ header {
 .sec2_caption {
     color: #B53B1B;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -329,7 +333,7 @@ header {
 .sec3_headtitle {
     color: #FFF;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -376,7 +380,7 @@ header {
 
 .sec4_txt {
     color: #B53B1B;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -386,7 +390,7 @@ header {
 .sec4_title {
     color: #402101;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -425,7 +429,7 @@ header {
 .sec4_last_button {
     color: #FFF;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -455,7 +459,7 @@ header {
 .sec5_title {
     color: #FFF;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -475,7 +479,7 @@ header {
 .myform::placeholder {
     color: #FFF;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -495,10 +499,14 @@ header {
     height: 56px;
     color: #402101;
     font-size: 90%;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.sec5_button:hover{
+    background-color:#D5906E;
+    transition: 0.5s;
 }
 
 
@@ -524,7 +532,7 @@ header {
 .sec6_title {
     color: #402101;
     font-size: 36px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -546,7 +554,7 @@ header {
 .mini_div_title {
     color: #B53B1B;
     font-size: 24px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -556,7 +564,7 @@ header {
 .mini_div_txt {
     color: #402101;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -574,7 +582,7 @@ header {
 .sec6_last_title {
     color: #402101;
     font-size: 24px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -588,10 +596,14 @@ header {
     border: none;
     color: #FFF;
     font-size: 24px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.sec6_button:hover{
+    background-color:#402101;
+    transition: 0.5s;
 }
 
 
@@ -615,7 +627,7 @@ header {
 .footer_title {
     color: #FFF;
     font-size: 36px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -624,7 +636,7 @@ header {
 .footer_span {
     color: #D5906E;
     font-size: 36px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -657,7 +669,7 @@ header {
 .footer_li {
     color: #FFF;
     font-size: 16px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -666,7 +678,7 @@ header {
 .main {
     color: #FFF;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -695,7 +707,7 @@ header {
 .footer_location {
     color: #FFF;
     font-size: 16px;
-    font-family: Rubik;
+    font-family: 'Rubik', sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -751,7 +763,7 @@ header {
 .category {
     color: #402101;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -784,17 +796,21 @@ header {
     flex-shrink: 0;
     color: #FFF;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     margin-left: -10px;
 }
+.artwork_button1:hover{
+    background-color: #D5906E;
+    transition: 0.5s;
+}
 
 .myform2::placeholder {
     color: rgba(64, 33, 1, 0.52);
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -819,7 +835,7 @@ header {
 .artwork_sec2_title {
     color: #402101;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -837,7 +853,7 @@ header {
 .sort_txt {
     color: #402101;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -878,7 +894,7 @@ header {
 .name_product {
     color: #B53B1B;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -894,7 +910,7 @@ header {
 .dollar {
     color: #402101;
     font-size: 24px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -918,7 +934,7 @@ header {
     align-items: center;
     color: #402101;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -970,7 +986,7 @@ header {
 .form_header {
     color: #FFF;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -990,7 +1006,7 @@ header {
 .place_class::placeholder {
     color: rgba(255, 255, 255, 0.76);
     font-size: 14px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -1035,10 +1051,14 @@ header {
     border: none;
     color: #FFF;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+.big_form_button:hover{
+    background-color:#402101;
+    transition: 0.5s;
 }
 
 /* contact_section 1 ends here */
@@ -1071,7 +1091,7 @@ header {
 .map_title {
     color: #402101;
     font-size: 40px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1080,7 +1100,7 @@ header {
 .contact_txt1 {
     color: #B53B1B;
     font-size: 18px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -1090,7 +1110,7 @@ header {
 .contact_txt2 {
     color: #623932;
     font-size: 16px;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 300;
     line-height: normal;

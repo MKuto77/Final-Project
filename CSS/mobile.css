@@ -212,4 +212,30 @@
     .numerical{
         width: 87.5%;
     }
+    /* !!!!!!ARTWORK ENDS HERE!!!!!!!!!!!!!!!!! */
+    /* CONTACT STARTS HERE */
+    .contact_section1{
+        padding-inline: 20px;
+    }
+    .contact_section2{
+        width: 90%;
+    }
+    .Main_div_contact{
+        width: 100%;
+    }
+    .contact_div{
+        width: 100%;
+    }
+    .map_inside_div{
+        flex-direction: column;
+    }
+    .div_contact_info{
+        width: 100%;
+        padding-left: 30px;
+    }
+    .mapper{
+        width: 100%;
+        margin-top: 24px;
+    }
+    /* !!!!! გაკეთებულია ზუსტად 480 პიქსელ რეზოლუციამდე!!!!! */
 }
